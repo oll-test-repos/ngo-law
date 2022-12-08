@@ -1,0 +1,19 @@
+{
+ "signatures": [
+  {
+   "keyid": "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b",
+   "sig": "53eee24150b9d3b73756d566bcb8789fdca3eb56f4b21204097534b38c48c23d078dcdb6f8c2321bccf36d6ebbf4bf6de5ca715a52414fa46bc3606c1ddab7af6e91e76f38c8d65c45ce7382a14a948d04c64b74d77c9c6d93aee9ad7a18d84960df92f36e832524ef4cfd9d721fb80c2eceb2e4c6b82c601162a7fee0260504dfbf96d66dd646d741fc44f4af6bf455d47f0d7f50cee32ddf833440150735c8f850fb755dd18d564c36e5a772c07f6f778a2dcfac3e16f05b1d0fe84bd802eb7c306cac24a01a79640c21abeb1f061b8439b2d47ff520c8e705386134f1b50aa1aa0e3d0365373a35d1315be0b4f7e32bd862db0199be8da690bdf46d3d0136"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {},
+   "roles": []
+  },
+  "expires": "2023-03-09T20:23:31Z",
+  "spec_version": "1.0.0",
+  "targets": {},
+  "version": 1
+ }
+}
