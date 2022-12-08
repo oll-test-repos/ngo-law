@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b",
-   "sig": "74f2b1f5453b8c95f0af01c5b149c478b3e23486f3ac3fb2dcab8f8ea10c7f342f4515263cba062f908dc1cd070be864a9c8d723b27ab4e0cebf5f39a4f6fd57be084affc69ec4cc2428dada1ff60714da452e0a1a59cfe72064cab6d12524388568896265b873357cf91314d7bdc838054643f7757fcc0ce77bab0dae0917ecef48accf089eac5ed6b50f70baf415b388469dc97944b91acc950c56b9644a28146405d9fc7429c14ca39b26d7fd97a41177435f72dac47a560f023c40a2514ebc847c19e1d2ebd149f1b96901bd4b92f22a3541dc63af87dc268abb9c1a1894cd239dea810e7cb86d1b18f9ccf734a4ac1cf4556bf3c2211ba8a75738e8d3b1"
+   "sig": "7476f837ec27d022acf998075b6a4e4e4f314d31c7496fa69a2318a530415f40de4eccc774c3678ff3caf7bd4bfa86c348ff2de3149ab21d5b6f95cf9f9ad526f731a3457fb685487032323f7f726ed692f2cb5c5eb2f0bb00006f6e5b0e029136def215a7fef6ada935cdacbce1186e558c5554439d24f5d94db24d5aa8be8f70419580c4d09ef9beaac6e717cbea5c18ec37f66c5f4ec9a97f68c490bdb3f25daae99f3b2bfaec91588c689bf9fbe3d0f8bf2c90d8b3887c1c13ec56920111edd99c3419ad77187b665d99fa2fa1d5847cd39cc5c30362361c1e23aacc1d23f1b96a602fa9b5f61cd10872b04d31075b6ecc8b37d5c5e7d378d07323f0760f"
   }
  ],
  "signed": {
@@ -56,16 +56,38 @@
      ],
      "name": "assets",
      "paths": [
-      "ngo/law-static-assets"
+      "ngo/law-static-assets",
+      "openlawlibrary/law-static-assets"
      ],
      "terminating": true,
      "threshold": 1
     }
    ]
   },
-  "expires": "2023-03-08T13:56:21Z",
+  "expires": "2023-03-08T14:09:49Z",
   "spec_version": "1.0.0",
   "targets": {
+   "mirrors.json": {
+    "hashes": {
+     "sha256": "d518e31991f283605538cefd7b24053eab90fdb84ec9aee2fa6cbe0335191b58",
+     "sha512": "6ac2d8b5a2bc722c9271d2bbbcbd5d495392ae94407148b7a83a49b87dbe51b65e0e814681d557f2aabf5fe8b29854f4591c37515ce37675b2b2044664e42f2c"
+    },
+    "length": 160
+   },
+   "protected/info.json": {
+    "hashes": {
+     "sha256": "309338cd218865123c5f6e780c5f0e61ad3c75fd664065a1cc0a0d36bb1aff3e",
+     "sha512": "e8ae4cd0785fe03cee26c255e55b73e2abee21922598da0ea2b2b5325bf67d121ea2fa8c0cb531c951fcdfe96e6db9edc0b78c315acabd26ab44fa29a22c2566"
+    },
+    "length": 45
+   },
+   "repositories.json": {
+    "hashes": {
+     "sha256": "535aee0e3ac676cad73fb7a5240f9804a5e5c98cc7fff7578ee1c2d2f9898f3d",
+     "sha512": "c6b2d54490b532c590df00929726c7f24e17b6a09007aa7cb0fed453983bec804fe465a76f08ebd62f702812142f88d5c53544257e318065f3a9632d4d2ff061"
+    },
+    "length": 1320
+   },
    "test-auth-repo": {
     "hashes": {
      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -74,6 +96,6 @@
     "length": 0
    }
   },
-  "version": 1
+  "version": 2
  }
 }
